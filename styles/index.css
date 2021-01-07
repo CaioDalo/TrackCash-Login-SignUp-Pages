@@ -1,0 +1,124 @@
+.container {
+    width: 50%;
+}
+
+.container img {
+    margin-bottom: 50px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+    width: 342px;
+}
+
+.form-login .input-container {
+    position: relative;
+    margin-bottom: 20px;
+} 
+
+.form-login .input-container img {
+    position: absolute;
+    right:15px;
+    top: 10px;
+}
+
+.form-login input {
+    color: #6D6D6D;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 7px;
+    border: none;
+}
+
+.form-login button {
+    border: none;
+    border-radius: 7px;
+    background-color: #C94A21;
+    color: white;
+    width: 100%;
+    height: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-login button:hover {
+    background-color: #9c3b1b;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.form-login .checkbox {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.checkbox-container span {
+    color: #C94A21;
+    font-size: 14px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.form-login .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links div + div {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.links a {
+    color: #C94A21;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* --- Infos Right --- */
+
+.infos-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 50%;
+    background: url(../images/bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.infos-right h1 {
+    margin: 0 auto;
+    width: 394px;
+    line-height: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+.infos-right h3 {
+    width: 334px;
+    margin: 50px auto;
+    size: 16px;
+    line-height: 21.12px;
+    font-weight: 400;
+    color: white;
+}

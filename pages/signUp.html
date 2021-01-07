@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/track-color-vertical.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/container.css">
+    <link rel="stylesheet" href="../styles/signUp.css">
+
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <section class="container">
+
+        <img src="../images/track-color-vertical.svg" alt="TrackCash-logo">
+        <h1>Cadastre-se no TrackCash:</h1>
+
+        <form action="" class="form-signUp">
+            <input type="text" name="cpf/cnpj" placeholder="CPF/CNPJ" required>
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="tel" placeholder="Telefone" required>
+            <input class="password" type="password" name="password" placeholder="Senha" required>
+            <input class="passwordAgain" type="password" name="password" placeholder="Confirme sua senha" required>
+
+            <button type="submit" onclick="passwordValidation()" name="submit-login">Cadastrar!</button>
+
+            <a href="../index.html" name="sign-up">Já possui conta? Faça login!</a>
+
+        </form>
+
+    </section>
+
+    <section class="infos-left">
+        <h1>Muito mais que um conciliador financeiro!</h1>
+        <h3>A melhor ferramenta no mercado e a única com processo automatizado, que compara as informações entre
+            Plataformas, MarketPlaces, Transportadoras, Meios de Pagamento e Instituições Financeiras!</h3>
+    </section>
+
+    <script src="../scripts/passaword-validation.js"></script>
+</body>
+
+</html>
