@@ -72,18 +72,70 @@ body {
 
 .infos-left h1 {
     margin: 0 auto;
-    width: 394px;
+    max-width: 450px;
     line-height: 60px;
     font-size: 36px;
     font-weight: 700;
     color: white;
+    padding: 0 2% 0 2%;
 }
 
 .infos-left h3 {
-    width: 334px;
+    max-width: 350px;
     margin: 50px auto;
     size: 16px;
     line-height: 21.12px;
     font-weight: 400;
     color: white;
+    padding: 0 2% 0 2%;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container > img {
+        margin-top: 40px;
+    }
+
+    .infos-left {
+        width: 100%;
+        margin-top: 100px;
+        height: 100vh;
+    }
+
+    .infos-left h1 {
+        margin-top: 100px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .infos-left h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .form-signUp {
+        width: 300px;
+    }
+
+    .infos-left h1 {
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-height: 568px) {
+    .infos-left {
+        margin-top: 400px;
+    }
 }
